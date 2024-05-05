@@ -1,7 +1,6 @@
 //https://leetcode.com/problems/online-stock-span/submissions/1245989089/
-package Stack;
+package DSA.Stack;
 
-import java.util.Map;
 import java.util.Stack;
 
 public class StockSpanner {

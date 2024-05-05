@@ -1,4 +1,5 @@
-package Stack;
+//https://leetcode.com/problems/basic-calculator/description/
+package DSA.Stack;
 
 import java.util.Stack;
 
@@ -43,7 +44,7 @@ public class BasicCalculator {
     }
 
     public static void main(String[] args) {
-        String s = "1-1";
+        String s = "156+2-(9-8+7)+3";
         BasicCalculator obj = new BasicCalculator();
         System.out.println(obj.calculate(s));
     }
